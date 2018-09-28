@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog grid Catalog grid has a couple of products 1`] = `
+<Component
+  onAddToCart={[Function]}
+  products={
+    Array [
+      Object {
+        "id": 1,
+        "title": "product 1",
+      },
+      Object {
+        "id": 2,
+        "title": "product 2",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Catalog grid Catalog grid has no products 1`] = `<Component />`;
+
+exports[`Catalog grid Catalog grid has one products 1`] = `
+<Component
+  onAddToCart={[Function]}
+  products={
+    Array [
+      Object {
+        "id": 1,
+        "title": "product 1",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Catalog grid Catalog product list has a couple of products 1`] = `
+Array [
+  <CatalogGridItem
+    key="0"
+    onAddToCart={[Function]}
+    product={
+        Object {
+            "id": 1,
+            "title": "product 1",
+          }
+    }
+/>,
+  <CatalogGridItem
+    key="1"
+    onAddToCart={[Function]}
+    product={
+        Object {
+            "id": 2,
+            "title": "product 2",
+          }
+    }
+/>,
+]
+`;
+
+exports[`Catalog grid Empty catalog label 1`] = `
+<div>
+  <p>
+    Nothing found
+  </p>
+</div>
+`;

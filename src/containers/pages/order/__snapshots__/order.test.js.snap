@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order page Order page should not show error message by default 1`] = `
+<div>
+  <h1>
+    Order details
+  </h1>
+  <Connect(ReduxForm)
+    initialValues={
+      Object {
+        "contact": Object {
+          "email": "",
+          "firstName": "",
+          "lastName": "",
+          "phone": "",
+        },
+        "payment": Object {
+          "address": "",
+          "addressOptional": "",
+          "city": "",
+          "country": "",
+          "postCode": "",
+          "region": "",
+        },
+        "shipping": Object {
+          "address": "",
+          "addressOptional": "",
+          "city": "",
+          "country": "",
+          "postCode": "",
+          "region": "",
+        },
+        "useShippingInfoAsPaymentInfo": true,
+      }
+    }
+    onSubmit={[Function]}
+    validate={[Function]}
+  />
+</div>
+`;
+
+exports[`Order page Order page should show error message if something went wrong 1`] = `
+<div>
+  <h1>
+    Order details
+  </h1>
+  <Connect(ReduxForm)
+    initialValues={
+      Object {
+        "contact": Object {
+          "email": "",
+          "firstName": "",
+          "lastName": "",
+          "phone": "",
+        },
+        "payment": Object {
+          "address": "",
+          "addressOptional": "",
+          "city": "",
+          "country": "",
+          "postCode": "",
+          "region": "",
+        },
+        "shipping": Object {
+          "address": "",
+          "addressOptional": "",
+          "city": "",
+          "country": "",
+          "postCode": "",
+          "region": "",
+        },
+        "useShippingInfoAsPaymentInfo": true,
+      }
+    }
+    onSubmit={[Function]}
+    validate={[Function]}
+  />
+  <ErrorLabel
+    message="some error message"
+    onRetry={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "authors": [
+        "typicode"
+      ],
+      "price": 19.99,
+      "currency": "USD"
+    },
+    {
+      "id": 2,
+      "title": "json-server forever",
+      "authors": [
+        "typicode"
+      ],
+      "price": 49.99,
+      "currency": "USD"
+    },
+    {
+      "id": 1,
+      "title": "json-server impossible",
+      "authors": [
+        "typicode"
+      ],
+      "price": 199.99,
+      "currency": "USD"
+    }
+  ],
+  "orders": []
+}

@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart grid item Authors list - a couple of authors 1`] = `
+<div>
+  <p>
+    Authors
+    :
+  </p>
+  <ul>
+    <li
+      key="0"
+    >
+      author 1
+    </li>
+    <li
+      key="1"
+    >
+      author 2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Cart grid item Authors list - a lot of authors 1`] = `
+<div>
+  <p>
+    Authors
+    :
+  </p>
+  <ul>
+    <li
+      key="0"
+    >
+      author 1
+    </li>
+    <li
+      key="1"
+    >
+      author 2
+    </li>
+    <li
+      key="2"
+    >
+      author 3
+    </li>
+    <li
+      key="3"
+    >
+      author 4
+    </li>
+    <li
+      key="4"
+    >
+      author 5
+    </li>
+    <li
+      key="5"
+    >
+      author 6
+    </li>
+    <li
+      key="6"
+    >
+      author 7
+    </li>
+    <li
+      key="7"
+    >
+      author 8
+    </li>
+    <li
+      key="8"
+    >
+      author 9
+    </li>
+    <li
+      key="9"
+    >
+      author 10
+    </li>
+    <li
+      key="10"
+    >
+      author 11
+    </li>
+    <li
+      key="11"
+    >
+      author 12
+    </li>
+    <li
+      key="12"
+    >
+      author 13
+    </li>
+    <li
+      key="13"
+    >
+      author 14
+    </li>
+    <li
+      key="14"
+    >
+      author 15
+    </li>
+    <li
+      key="15"
+    >
+      author 16
+    </li>
+    <li
+      key="16"
+    >
+      author 17
+    </li>
+    <li
+      key="17"
+    >
+      author 18
+    </li>
+    <li
+      key="18"
+    >
+      author 19
+    </li>
+    <li
+      key="19"
+    >
+      author 20
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Cart grid item Authors list - no authors 1`] = `
+<div>
+  <p>
+    Author
+    :
+  </p>
+  <p>
+    no information
+  </p>
+</div>
+`;
+
+exports[`Cart grid item Authors list - one author 1`] = `
+<div>
+  <p>
+    Author
+    :
+  </p>
+  <ul>
+    <li
+      key="0"
+    >
+      author 1
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Cart grid item Authors list item 1`] = `
+<li
+  key="[object Object]"
+>
+  <Component />
+</li>
+`;
+
+exports[`Cart grid item Cart grid item 1`] = `
+<div>
+  <img
+    alt="title"
+    src="img-src"
+  />
+  <p>
+    <strong>
+      title
+    </strong>
+  </p>
+  <Component
+    authors={
+      Array [
+        "author 1",
+        "author 2",
+      ]
+    }
+  />
+  <Component
+    saleInfo={
+      Object {
+        "country": "EN",
+        "listPrice": Object {
+          "amount": 1,
+          "currencyCode": "USD",
+        },
+      }
+    }
+  />
+  <Component
+    onChangeAmountOfProductInCart={[Function]}
+    product={
+      Object {
+        "saleInfo": Object {
+          "country": "EN",
+          "listPrice": Object {
+            "amount": 1,
+            "currencyCode": "USD",
+          },
+        },
+        "volumeInfo": Object {
+          "authors": Array [
+            "author 1",
+            "author 2",
+          ],
+          "imageLinks": Object {
+            "smallThumbnail": "img-src",
+          },
+          "title": "title",
+        },
+      }
+    }
+  />
+  <button
+    className="remove-product"
+    onClick={[Function]}
+  >
+    Remove from cart
+  </button>
+</div>
+`;
+
+exports[`Cart grid item Product amount selector 1`] = `
+<div>
+  <button
+    className="decrease"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <input
+    name="amount"
+    onChange={[Function]}
+    type="number"
+    value={1}
+  />
+  <button
+    className="increase"
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;
+
+exports[`Cart grid item Product price EUR 1`] = `
+<div>
+  <span>
+    €1.00
+  </span>
+</div>
+`;
+
+exports[`Cart grid item Product price USD 1`] = `
+<div>
+  <span>
+    $2.00
+  </span>
+</div>
+`;

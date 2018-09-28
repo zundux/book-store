@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helper functions get first by value 1`] = `"last-name"`;
+
+exports[`helper functions get flatten object from an object or an array 1`] = `
+Object {
+  "a": 1,
+  "b.bb": "text",
+  "b.bbb.bbbb.0": 1,
+  "b.bbb.bbbb.1": 2,
+  "b.bbb.bbbb.2": 3,
+  "b.bbb.bbbb.3": 4,
+  "b.bbb.bbbbb.0.id": 11,
+  "b.bbb.bbbbb.1.authors.0": "author 1",
+  "b.bbb.bbbbb.1.authors.1": "author 2",
+  "b.bbb.bbbbb.1.id": 12,
+}
+`;
+
+exports[`helper functions get flatten object from an object or an array 2`] = `
+Object {
+  "0.a": 1,
+  "0.b.bb": "text",
+  "0.b.bbb.bbbb.0": 1,
+  "0.b.bbb.bbbb.1": 2,
+  "0.b.bbb.bbbb.2": 3,
+  "0.b.bbb.bbbb.3": 4,
+  "0.b.bbb.bbbbb.0.id": 11,
+  "0.b.bbb.bbbbb.1.authors.0": "author 1",
+  "0.b.bbb.bbbbb.1.authors.1": "author 2",
+  "0.b.bbb.bbbbb.1.id": 12,
+  "1": 123,
+}
+`;

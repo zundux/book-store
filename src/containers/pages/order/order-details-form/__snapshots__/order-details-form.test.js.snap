@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order details form Custom checkbox field with label 1`] = `
+<div>
+  <input
+    name="field-name"
+    onChange={[Function]}
+    placeholder="checkbox field label"
+    type="checkbox"
+  />
+  <label
+    htmlFor="field-name"
+  >
+    checkbox field label
+  </label>
+</div>
+`;
+
+exports[`Order details form Custom text field 1`] = `
+<div>
+  <input
+    name="field-name"
+    onChange={[Function]}
+    placeholder={null}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Order details form Custom text field with a warning 1`] = `
+<div>
+  <input
+    name="field-name"
+    onChange={[Function]}
+    placeholder={null}
+    type="text"
+  />
+  <span>
+    some warning
+  </span>
+</div>
+`;
+
+exports[`Order details form Custom text field with an error 1`] = `
+<div>
+  <input
+    name="field-name"
+    onChange={[Function]}
+    placeholder={null}
+    type="text"
+  />
+  <span>
+    some error
+  </span>
+</div>
+`;
+
+exports[`Order details form Form field 1`] = `
+<Field
+  component={[Function]}
+  label="field label"
+  name="field-name"
+  type="text"
+/>
+`;
+
+exports[`Order details form Order details form should not show payment info by default 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <fieldset>
+    <legend>
+      <h2>
+        Contact information
+      </h2>
+    </legend>
+    <Component
+      label="First name"
+      name="contact.firstName"
+      type="text"
+    />
+    <Component
+      label="Last name"
+      name="contact.lastName"
+      type="text"
+    />
+    <Component
+      label="Phone"
+      name="contact.phone"
+      type="text"
+    />
+    <Component
+      label="Email"
+      name="contact.email"
+      type="text"
+    />
+  </fieldset>
+  <fieldset>
+    <legend>
+      <h2>
+        Shipping address
+      </h2>
+    </legend>
+    <Component
+      label="Address 1"
+      name="shipping.address"
+      type="text"
+    />
+    <Component
+      label="Address 2 (Optional) Apartment, suite, floor, etc."
+      name="shipping.addressOptional"
+      type="text"
+    />
+    <Component
+      label="City"
+      name="shipping.city"
+      type="text"
+    />
+    <Component
+      label="Country"
+      name="shipping.country"
+      type="text"
+    />
+    <Component
+      label="State/Province/Region"
+      name="shipping.region"
+      type="text"
+    />
+    <Component
+      label="Zip/Postal Code"
+      name="shipping.postCode"
+      type="text"
+    />
+  </fieldset>
+  <Component
+    label="Use Shipping address as Payment address"
+    name="useShippingInfoAsPaymentInfo"
+    type="checkbox"
+  />
+  <button
+    disabled={false}
+    type="submit"
+  >
+    Get quote
+  </button>
+</form>
+`;
+
+exports[`Order details form Order details form should show payment info if  "use shipping address as payment address" checkbox is not checked 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <fieldset>
+    <legend>
+      <h2>
+        Contact information
+      </h2>
+    </legend>
+    <Component
+      label="First name"
+      name="contact.firstName"
+      type="text"
+    />
+    <Component
+      label="Last name"
+      name="contact.lastName"
+      type="text"
+    />
+    <Component
+      label="Phone"
+      name="contact.phone"
+      type="text"
+    />
+    <Component
+      label="Email"
+      name="contact.email"
+      type="text"
+    />
+  </fieldset>
+  <fieldset>
+    <legend>
+      <h2>
+        Shipping address
+      </h2>
+    </legend>
+    <Component
+      label="Address 1"
+      name="shipping.address"
+      type="text"
+    />
+    <Component
+      label="Address 2 (Optional) Apartment, suite, floor, etc."
+      name="shipping.addressOptional"
+      type="text"
+    />
+    <Component
+      label="City"
+      name="shipping.city"
+      type="text"
+    />
+    <Component
+      label="Country"
+      name="shipping.country"
+      type="text"
+    />
+    <Component
+      label="State/Province/Region"
+      name="shipping.region"
+      type="text"
+    />
+    <Component
+      label="Zip/Postal Code"
+      name="shipping.postCode"
+      type="text"
+    />
+  </fieldset>
+  <Component
+    label="Use Shipping address as Payment address"
+    name="useShippingInfoAsPaymentInfo"
+    type="checkbox"
+  />
+  <fieldset>
+    <legend>
+      <h2>
+        Payment address
+      </h2>
+    </legend>
+    <Component
+      label="Address 1"
+      name="payment.address"
+      type="text"
+    />
+    <Component
+      label="Address 2 (Optional) Apartment, suite, floor, etc."
+      name="payment.addressOptional"
+      type="text"
+    />
+    <Component
+      label="City"
+      name="payment.city"
+      type="text"
+    />
+    <Component
+      label="Country"
+      name="payment.country"
+      type="text"
+    />
+    <Component
+      label="State/Province/Region"
+      name="payment.region"
+      type="text"
+    />
+    <Component
+      label="Zip/Postal Code"
+      name="payment.postCode"
+      type="text"
+    />
+  </fieldset>
+  <button
+    disabled={false}
+    type="submit"
+  >
+    Get quote
+  </button>
+</form>
+`;

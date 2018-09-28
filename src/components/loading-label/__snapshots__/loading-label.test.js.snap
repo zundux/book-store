@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading label Loading label has only the message "Loading, please wait"  1`] = `
+<div>
+  Loading, please wait
+</div>
+`;

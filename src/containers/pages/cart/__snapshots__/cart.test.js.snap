@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart page Cart page should not show checkout link when cart is empty 1`] = `
+<div>
+  <CartHeader
+    products={Array []}
+  />
+  <CartGrid
+    onChangeAmountOfProductInCart={[Function]}
+    onRemoveFromCart={[Function]}
+    products={Array []}
+  />
+  <CartTotalInfo
+    products={Array []}
+  />
+</div>
+`;
+
+exports[`Cart page Cart page should show the checkout link when cart has some products or one 1`] = `
+<div>
+  <CartHeader
+    products={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+        Object {
+          "id": 3,
+        },
+      ]
+    }
+  />
+  <CartGrid
+    onChangeAmountOfProductInCart={[Function]}
+    onRemoveFromCart={[Function]}
+    products={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+        Object {
+          "id": 3,
+        },
+      ]
+    }
+  />
+  <CartTotalInfo
+    products={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+        Object {
+          "id": 3,
+        },
+      ]
+    }
+  />
+  <button>
+    <Link
+      replace={false}
+      to="/order"
+    >
+      Checkout
+    </Link>
+  </button>
+</div>
+`;

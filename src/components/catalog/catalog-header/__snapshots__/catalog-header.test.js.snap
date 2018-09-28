@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog grid header Catalog header has not only the text "Catalog" when catalog is empty 1`] = `
+<div>
+  <h1>
+    Catalog
+  </h1>
+</div>
+`;
+
+exports[`Catalog grid header Header has the word "product" when cart has only 1 product 1`] = `
+<div>
+  <h1>
+    Catalog
+  </h1>
+  <div>
+    <Link
+      replace={false}
+      to="/cart"
+    >
+      1
+       product
+       in cart
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`Catalog grid header Header has the word "products" when cart contain 2 copies of the product 1`] = `
+<div>
+  <h1>
+    Catalog
+  </h1>
+  <div>
+    <Link
+      replace={false}
+      to="/cart"
+    >
+      2
+       product
+      s
+       in cart
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`Catalog grid header Header has the word "products" when cart has a couple of products 1`] = `
+<div>
+  <h1>
+    Catalog
+  </h1>
+  <div>
+    <Link
+      replace={false}
+      to="/cart"
+    >
+      2
+       product
+      s
+       in cart
+    </Link>
+  </div>
+</div>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product page calls loadProduct when the site has been loaded at first time and show loading label 1`] = `
+<div>
+  <LoadingLabel
+    message="Product loading, please wait"
+  />
+</div>
+`;
+
+exports[`Product page should show error message if the product not found 1`] = `
+<div>
+  <ErrorLabel
+    message="Product not found. some error"
+  >
+    <Link
+      replace={false}
+      to="/"
+    >
+      Back to catalog
+    </Link>
+  </ErrorLabel>
+</div>
+`;
+
+exports[`Product page should show product by default 1`] = `
+<div>
+  <ProductDetails
+    onAddToCart={[Function]}
+    product={
+      Object {
+        "id": 11,
+      }
+    }
+  />
+</div>
+`;

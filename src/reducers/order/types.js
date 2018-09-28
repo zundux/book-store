@@ -1,0 +1,3 @@
+export const SAVE_ORDER_REQUEST = "order/SAVE_ORDER_REQUEST";
+export const SAVE_ORDER_SUCCESS = "order/SAVE_ORDER_SUCCESS";
+export const SAVE_ORDER_FAIL = "order/SAVE_ORDER_FAIL";

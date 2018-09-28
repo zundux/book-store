@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App container App container 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(ConnectedRouter)
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <WithStyles(CssBaseline) />
+    <header>
+      <nav>
+        <Link
+          replace={false}
+          to="/"
+        >
+          Catalog
+        </Link>
+        <Link
+          replace={false}
+          to="/cart"
+        >
+          Cart
+        </Link>
+        <Link
+          replace={false}
+          to="/about-us"
+        >
+          About
+        </Link>
+      </nav>
+    </header>
+    <main>
+      <Switch>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={[Function]}
+          path="/product/:id"
+        />
+        <Route
+          component={[Function]}
+          path="/cart"
+        />
+        <Route
+          component={[Function]}
+          path="/order/created"
+        />
+        <Route
+          component={[Function]}
+          path="/order"
+        />
+        <Route
+          component={[Function]}
+          path="/about-us"
+        />
+        <Route
+          component={[Function]}
+        />
+      </Switch>
+    </main>
+    <footer />
+    <Modals />
+  </Connect(ConnectedRouter)>
+</Provider>
+`;

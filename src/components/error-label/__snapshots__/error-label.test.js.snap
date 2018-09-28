@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error label Error label has only the message 1`] = `
+<div>
+  <p>
+    Something went wrong
+  </p>
+</div>
+`;
+
+exports[`Error label Error label has the message and button with text "Retry" 1`] = `
+<div>
+  <p>
+    Something went wrong
+  </p>
+  <button
+    className="retry"
+    onClick={[Function]}
+  >
+    Retry
+  </button>
+</div>
+`;

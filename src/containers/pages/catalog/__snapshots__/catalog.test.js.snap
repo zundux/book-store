@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog page calls loadProducts when the site has been loaded at first time and show loading label 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`Catalog page should show error message label if the products not found 1`] = `
+<div>
+  <div>
+    <CatalogHeader
+      productsInCart={Array []}
+    />
+    <CatalogGrid
+      onAddToCart={[Function]}
+      products={
+        Array [
+          Object {
+            "id": 1,
+          },
+          Object {
+            "id": 2,
+          },
+          Object {
+            "id": 3,
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Catalog page should show product list  1`] = `
+<div>
+  <div>
+    <CatalogHeader
+      productsInCart={Array []}
+    />
+    <CatalogGrid
+      onAddToCart={[Function]}
+      products={
+        Array [
+          Object {
+            "id": 1,
+          },
+          Object {
+            "id": 2,
+          },
+          Object {
+            "id": 3,
+          },
+        ]
+      }
+    />
+    <p>
+      Found 
+      101
+       item
+      s
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart grid header Cart header has only the text "Cart" when cart is empty 1`] = `
+<div>
+  <h1>
+    Cart
+  </h1>
+</div>
+`;
+
+exports[`Cart grid header Header has the word "product" when cart has only 1 product 1`] = `
+<div>
+  <h1>
+    Cart
+  </h1>
+  <div>
+    1
+     product
+     in cart
+  </div>
+</div>
+`;
+
+exports[`Cart grid header Header has the word "products" when cart contain 2 copies of the product 1`] = `
+<div>
+  <h1>
+    Cart
+  </h1>
+  <div>
+    2
+     product
+    s
+     in cart
+  </div>
+</div>
+`;
+
+exports[`Cart grid header Header has the word "products" when cart has a couple of products 1`] = `
+<div>
+  <h1>
+    Cart
+  </h1>
+  <div>
+    2
+     product
+    s
+     in cart
+  </div>
+</div>
+`;

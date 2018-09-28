@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order created page Order created page should not show success message by default 1`] = `
+<div>
+  <p>
+    Order № 
+    <b>
+      11
+    </b>
+     was created successfully
+  </p>
+</div>
+`;
+
+exports[`Order created page Order page should show error message if something went wrong 1`] = `
+<div>
+  <p>
+    Something went wong.
+    <br />
+    Please, contact us  
+    <a
+      href="mailto:support@localhost"
+    >
+      support@localhost
+    </a>
+  </p>
+</div>
+`;

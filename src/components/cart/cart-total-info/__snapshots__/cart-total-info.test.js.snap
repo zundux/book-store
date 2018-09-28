@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart total info Cart total info for cart with a couple copy of product 1`] = `
+<h2>
+  Total: 
+  $2.00
+</h2>
+`;
+
+exports[`Cart total info Cart total info for cart with a couple different products 1`] = `
+<h2>
+  Total: 
+  $6.00
+</h2>
+`;
+
+exports[`Cart total info Cart total info for cart with one product 1`] = `
+<h2>
+  Total: 
+  $1.00
+</h2>
+`;
+
+exports[`Cart total info Cart total info for cart without products 1`] = `""`;

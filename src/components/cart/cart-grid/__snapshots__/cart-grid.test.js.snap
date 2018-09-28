@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart grid Cart grid has a couple of products 1`] = `
+<Component
+  onChangeAmountOfProductInCart={[Function]}
+  onRemoveFromCart={[Function]}
+  products={
+    Array [
+      Object {
+        "id": 1,
+        "title": "product 1",
+      },
+      Object {
+        "id": 2,
+        "title": "product 2",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Cart grid Cart grid has no products 1`] = `<Component />`;
+
+exports[`Cart grid Cart grid has one products 1`] = `
+<Component
+  onChangeAmountOfProductInCart={[Function]}
+  onRemoveFromCart={[Function]}
+  products={
+    Array [
+      Object {
+        "id": 1,
+        "title": "product 1",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Cart grid Empty cart label 1`] = `
+<div>
+  <p>
+    Cart is empty
+  </p>
+  <p>
+    Add products from 
+    <Link
+      replace={false}
+      to="/"
+    >
+      catalog
+    </Link>
+  </p>
+</div>
+`;
+
+exports[`Cart grid Product list has a couple of products 1`] = `
+Array [
+  <CartGridItem
+    key="0"
+    onChangeAmountOfProductInCart={[Function]}
+    onRemoveFromCart={[Function]}
+    product={
+        Object {
+            "id": 1,
+            "title": "product 1",
+          }
+    }
+/>,
+  <CartGridItem
+    key="1"
+    onChangeAmountOfProductInCart={[Function]}
+    onRemoveFromCart={[Function]}
+    product={
+        Object {
+            "id": 2,
+            "title": "product 2",
+          }
+    }
+/>,
+]
+`;
