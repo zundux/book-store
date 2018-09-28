@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# Book store example app
+### app uses CRA, jest, json-server
 
 ## Available Scripts
 
@@ -29,3 +30,6 @@ Your app is ready to be deployed!
 
 Deploy on heroku master branch.
 App available on https://react-demo-ux.herokuapp.com/
+
+### bootstrap
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
