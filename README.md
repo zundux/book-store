@@ -1,6 +1,8 @@
 # Book store example app
 app uses CRA, jest, json-server
 
+[https://react-demo-ux.herokuapp.com/](demo)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -29,7 +31,6 @@ Your app is ready to be deployed!
 ### `git push heroku master`
 
 Deploy on heroku master branch.
-App available on https://react-demo-ux.herokuapp.com/
 
 ### bootstrap
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
