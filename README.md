@@ -1,5 +1,5 @@
 # Book store example app
-### app uses CRA, jest, json-server
+app uses CRA, jest, json-server
 
 ## Available Scripts
 
