@@ -1,7 +1,7 @@
 # Book store example app
 app uses CRA, jest, json-server
 
-[https://react-demo-ux.herokuapp.com/](demo)
+[Demo](https://react-demo-ux.herokuapp.com/)
 
 ## Available Scripts
 
